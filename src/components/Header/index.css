@@ -1,0 +1,55 @@
+.nav-header {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  max-width: 1100px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.logo-heading {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 24px;
+  cursor: pointer;
+  color: #1e293b;
+}
+
+@media screen and (max-width: 576px) {
+  .logo-heading {
+    font-size: 18px;
+  }
+}
+
+.my-orders-text {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  color: #585555;
+}
+
+.cart-icon-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.cart-count-badge {
+  position: absolute;
+  top: -10px;
+  right: -8px;
+}
+
+.cart-count {
+  text-align: center;
+  background-color: #ff6347;
+  padding: 2px 6px;
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 11px;
+  min-width: 20px;
+  min-height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
